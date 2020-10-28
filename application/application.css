@@ -1,0 +1,36 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root{
+	-fx-background-color: linear-gradient( from 0.0% 50.0% to 50.0% 100.0%, rgb(0,0,0) 0.0, rgb(169,169,169) 100.0);
+}
+
+.label{
+	-fx-font-family:"Algerian";
+	-fx-text-fill:linear-gradient( from 0.0% 0.0% to 100.0% 100.0%, rgb(255,255,255) 0.0, rgb(255,215,0) 100.0);
+	
+}
+
+.button{
+	-fx-font-size: 16px;
+	-fx-font-family:"Castellar";
+	-fx-text-fill: rgb(0,0,0);
+	-fx-background-color: linear-gradient( from 0.0% 0.0% to 100.0% 100.0%, rgb(255,215,0) 0.0, rgb(255,255,255) 100.0);
+}
+
+.button:hover {
+	-fx-background-color: linear-gradient( from 50.0% 0.0% to 50.0% 100.0%, rgb(255,255,255) 0.0, rgb(255,215,0) 100.0);
+}
+
+#btnCost,#btnBack, #btnAdd{
+	-fx-font-size:10px;
+}
+
+.radio-button{
+	-fx-font-family:"Castellar";
+	-fx-text-fill:linear-gradient( from 0.0% 0.0% to 100.0% 100.0%, rgb(255,255,255) 0.0, rgb(255,215,0) 100.0);
+}
+
+.check-box{
+	-fx-font-family:"Castellar";
+	-fx-text-fill:linear-gradient( from 0.0% 0.0% to 100.0% 100.0%, rgb(255,255,255) 0.0, rgb(255,215,0) 100.0);
+}
+
